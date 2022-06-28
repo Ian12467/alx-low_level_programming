@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * alloc_grid - creates a 2 dimensional array of integers initialized to 0
  * @width: width of the matrix
  * @height: height of the matrix
  *
