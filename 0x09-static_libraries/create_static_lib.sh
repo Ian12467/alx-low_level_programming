@@ -1,5 +1,5 @@
 #!/bin/bash
 gcc -c *.c
-ar rc liball.a *.o
+ar rc libll.a *.o
 ranlib liball.a
 
