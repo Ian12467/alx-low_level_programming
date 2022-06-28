@@ -2,6 +2,7 @@
 #include "main.h"
 
 /*
+ * _strdup - copy
  * *_strdup - copies the string given as parameter
  * @str: string to duplicate
  * Return: pointer to the copied string (Success), NULL (Error)
