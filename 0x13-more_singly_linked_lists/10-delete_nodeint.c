@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * delete_nodeint_at_index - deletes a node in a linked list at a certain index
  * @head: pointer to the first element in the list
@@ -30,8 +29,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		temp = temp->next;
 		i++;
 	}
-
-
 	current = temp->next;
 	temp->next = current->next;
 	free(current);
