@@ -63,7 +63,6 @@ size_t print_listint_safe(const listint_t *head)
 		head = head->next;
 		nnodes++;
 	}
-
 	free_listp(&hptr);
 	return (nnodes);
 }
