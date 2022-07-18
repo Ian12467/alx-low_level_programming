@@ -23,12 +23,8 @@ size_t print_listint_safe(const listint_t *head)
 			printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 			break;
 		}
-	}
-<<<<<<< HEAD
 	return (num);
 }
-=======
 	free_listp(&hptr);
 	return (nnodes);
 }
->>>>>>> 1cd551f6c1b41beb6d4ad84dbfc60ad87f6fac5b
