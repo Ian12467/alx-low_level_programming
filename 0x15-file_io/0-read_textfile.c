@@ -1,7 +1,6 @@
 #include "main.h"
 #include <string.h>
 
-
 /**
  * read_textfile - reads the content of the file
  * @filename: name of the file
