@@ -46,7 +46,6 @@ int jump_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
-
 /**
  * min - checks the one that is smaller
  * @a: to be checked
