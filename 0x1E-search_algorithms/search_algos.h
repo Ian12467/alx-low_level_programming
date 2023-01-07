@@ -1,7 +1,5 @@
 #ifndef MAIN_H
-#ifndef SEARCH_ALGOS_H
 #define MAIN_H
-#define SEARCH_ALGOS_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -48,4 +46,4 @@ listint_t *jump_list(listint_t *list, size_t size, int value);
 skiplist_t *linear_skip(skiplist_t *list, int value);
 size_t min(size_t a, size_t b);
 
-#endif /* SEARCH_ALGO_H */
+#endif /* MAIN_H */
